@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-group {
+  @apply mb-2 flex-1;
+}
+.form-label {
+  @apply text-sm block;
+}
+.form-input {
+  @apply border w-full p-2 rounded-sm;
+}
